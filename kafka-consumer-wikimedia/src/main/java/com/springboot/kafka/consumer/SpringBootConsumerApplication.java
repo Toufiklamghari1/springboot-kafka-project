@@ -1,0 +1,14 @@
+package com.springboot.kafka.consumer;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @autor Toufik Lamghari
+ **/
+@SpringBootApplication
+public class SpringBootConsumerApplication{
+    public static void main(String[] args) {
+        SpringApplication.run(SpringBootConsumerApplication.class, args);
+    }
+}

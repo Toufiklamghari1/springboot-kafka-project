@@ -29,41 +29,41 @@ This project demonstrates the creation of a scalable and resilient Kafka-based m
 
 # Project structure 
 
-springboot-kafka-project/
- ├── kafka-consumer-wikimedia/
- │    ├── src/
- │    │    └── main/
- │    │         ├── java/com/springboot/kafka/consumer/
- │    │         │    ├── entity/
- │    │         │    │    └── WikimediaData.java
- │    │         │    ├── repository/
- │    │         │    │    ├── WikimediaDataRepository.java
- │    │         │    │    └── KafkaConsumer.java
- │    │         │    └── SpringBootConsumerApplication.java
- │    │         └── resources/
- │    │              └── application.properties
- │    └── pom.xml
- ├── kafka-producer-wikimedia/
- │    ├── src/
- │    │    └── main/
- │    │         ├── java/com/springboot/kafka/producer/
- │    │         │    ├── KafkaTopicConfig.java
- │    │         │    ├── SpringBootProducerApplication.java
- │    │         │    ├── WikimediaChangesHandler.java
- │    │         │    └── WikimediaChangesProducer.java
- │    │         └── resources/
- │    │              └── application.properties
- │    └── pom.xml
- ├── src/
- │    └── main/
- │         └── java/com/springboot/kafka/springbootkafkaproject/
- │              └── SpringbootKafkaProjectApplication.java
- ├── test/
- │    └── java/com/springboot/kafka/springbootkafkaproject/
- │         └── SpringbootKafkaProjectApplicationTests.java
- ├── mvnw
- ├── mvnw.cmd
- ├── pom.xml
- ├── README.md
- └── .gitignore
+    springboot-kafka-project/
+     ├── kafka-consumer-wikimedia/
+     │    ├── src/
+     │    │    └── main/
+     │    │         ├── java/com/springboot/kafka/consumer/
+     │    │         │    ├── entity/
+     │    │         │    │    └── WikimediaData.java
+     │    │         │    ├── repository/
+     │    │         │    │    ├── WikimediaDataRepository.java
+     │    │         │    │    └── KafkaConsumer.java
+     │    │         │    └── SpringBootConsumerApplication.java
+     │    │         └── resources/
+     │    │              └── application.properties
+     │    └── pom.xml
+     ├── kafka-producer-wikimedia/
+     │    ├── src/
+     │    │    └── main/
+     │    │         ├── java/com/springboot/kafka/producer/
+     │    │         │    ├── KafkaTopicConfig.java
+     │    │         │    ├── SpringBootProducerApplication.java
+     │    │         │    ├── WikimediaChangesHandler.java
+     │    │         │    └── WikimediaChangesProducer.java
+     │    │         └── resources/
+     │    │              └── application.properties
+     │    └── pom.xml
+     ├── src/
+     │    └── main/
+     │         └── java/com/springboot/kafka/springbootkafkaproject/
+     │              └── SpringbootKafkaProjectApplication.java
+     ├── test/
+     │    └── java/com/springboot/kafka/springbootkafkaproject/
+     │         └── SpringbootKafkaProjectApplicationTests.java
+     ├── mvnw
+     ├── mvnw.cmd
+     ├── pom.xml
+     ├── README.md
+     └── .gitignore
 

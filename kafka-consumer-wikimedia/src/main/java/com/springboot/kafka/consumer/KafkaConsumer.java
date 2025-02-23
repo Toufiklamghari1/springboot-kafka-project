@@ -23,7 +23,7 @@ public class KafkaConsumer {
             this.wikimediaDataRepository = wikimediaDataRepository;
     }
 
-    @KafkaListener(topics = "wikimedia-changes", groupId = "myGroup")
+    @KafkaListener(topics = "${spring.kafka.topic.name}", groupId = "${spring.kafka.consumer.group-id}")
     public void consume(String eventMessage) {
         LOGGER.info(String.format("Received event: %s", eventMessage));
         WikimediaData wikimediaData = new WikimediaData();

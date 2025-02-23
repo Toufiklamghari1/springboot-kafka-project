@@ -17,15 +17,15 @@ This project demonstrates the creation of a scalable and resilient Kafka-based m
 - **Spring Kafka**: Provides easy Kafka integration with Spring Boot.
 - **Maven**: Dependency and build management.
 
-STEP 1: DOWNLOAD AND INSTALL KAFKA
+# DOWNLOAD AND INSTALL KAFKA
 [https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz](https://kafka.apache.org/quickstart)
 
-STEP 2: START THE KAFKA ENVIRONMENT
-# Start the ZooKeeper service
-C:\Users\RAMESH\Downloads\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+# START THE KAFKA ENVIRONMENT
+#  Start the ZooKeeper service
+    C:\Users\RAMESH\Downloads\kafka>.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
 
-# Start the Kafka broker service
-C:\Users\RAMESH\Downloads\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
+#  Start the Kafka broker service
+    C:\Users\RAMESH\Downloads\kafka>.\bin\windows\kafka-server-start.bat .\config\server.properties
 
 # Project structure 
 

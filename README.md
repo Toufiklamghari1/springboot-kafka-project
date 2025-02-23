@@ -18,7 +18,7 @@ This project demonstrates the creation of a scalable and resilient Kafka-based m
 - **Maven**: Dependency and build management.
 
 STEP 1: DOWNLOAD AND INSTALL KAFKA
-https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz
+[https://dlcdn.apache.org/kafka/3.2.0/kafka_2.13-3.2.0.tgz](https://kafka.apache.org/quickstart)
 
 STEP 2: START THE KAFKA ENVIRONMENT
 # Start the ZooKeeper service
